@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[svn-remote "svn"]
+	noMetadata = 1
+	url = file:///D:/SVNRepo
+	fetch = trunk:refs/remotes/origin/trunk
+[remote "origin"]
+	url = https://github.com/youmnamahmoud/SVNRepo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
